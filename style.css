@@ -1,0 +1,98 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.section{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+.trafficBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* border: 2px solid red; */
+    height: 50vh;
+    width: 100vw;
+}
+.trafficBox .trafficBG{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+    height: 80%;
+    width: 180px;
+    border-radius: 10%;
+    background-color: #000;
+}
+.trafficLight{
+    margin: 35px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    /* background-color: red; */
+    /* background-color: white; */
+    background-color: green;
+}
+
+/* ====================================================================================== */
+
+.timmerSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 45vh;
+    /* border: 2px solid red; */
+}
+.timmerSection #timmer{
+    font-size: 75px;
+}
+.timmerSection #gameSt{
+    height: 50px;
+    width: 120px;
+    border-radius: 5%;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: #000;
+    color: white;
+}
+.timmerSection #gameSt:hover{
+    background-color: yellow;
+    color: #000;
+}
+.timmerSection #gameReSt{
+    height: 50px;
+    width: 120px;
+    border-radius: 5%;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: #000;
+    color: white;
+}
+.timmerSection #gameReSt:hover{
+    background-color: yellow;
+    color: #000;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    /* border: 2px solid yellow; */
+}
+.footer p{
+    font-size: 28px;
+}
+.footer p a{
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    font-weight: bolder;
+}
+
+.timmerSection #para{
+    font-size: 38px;
+}
